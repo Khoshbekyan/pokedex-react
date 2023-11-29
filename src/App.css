@@ -1,0 +1,59 @@
+@import url('https://fonts.googleapis.com/css2?family=Oswald&display=swap');
+
+*{
+    margin:  0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Oswald', sans-serif;
+}
+section{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 30px;
+}
+.container{
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    padding: 20px;
+}
+.poke-divs{
+    width: 22%;
+    height: max-content;
+    margin-top: 20px;
+    border-radius: 20px;
+    padding: 30px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    box-shadow: inset 0px 0px 20px cyan,0px 0px 10px black;
+    cursor: pointer;
+    transition: 200ms;
+}
+.poke-divs:hover{
+    box-shadow: inset 0px 0px 50px cyan,0px 0px 5px black;
+}
+.poke-divs h1{
+    text-transform: capitalize;
+}
+img{
+    width: 120px;
+}
+input{
+    width: 200px;
+    height: 40px;
+    border: none;
+    border-bottom: 1px solid gray ;
+    outline: none;
+    font-size: 18px;
+    padding: 8px 11px;
+}
+.not-found{
+    font-size: 52px;
+    color: red;
+    font-weight: bold;
+}
